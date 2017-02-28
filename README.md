@@ -7,3 +7,14 @@ Simple ASPX .NET Example
 - Requires Windows Stack on PCF
 - 'cf push' will generate a random-route for the Application
 
+    <dependencyManagement>
+        <dependencies>
+          <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-parent</artifactId>
+            <version>Brixton.M1</version>
+            <type>pom</type>
+            <scope>import</scope>
+          </dependency>
+        </dependencies>
+    </dependencyManagement>
