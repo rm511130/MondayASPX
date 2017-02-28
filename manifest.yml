@@ -1,0 +1,10 @@
+---
+applications:
+- name: Simple_ASPX
+  memory: 512M
+  instances: 1
+  host: simple-aspx-${random-word}
+  path: . 
+  buildpack: binary_buildpack
+  stack: windows2012R2
+
